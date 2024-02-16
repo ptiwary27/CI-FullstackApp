@@ -40,4 +40,4 @@ jobs:
 
       # Send a console message at completion.
       - run: |
-          echo "Hello ${{github.actor}}. You pushed to ${{github.repository}} at $(date). only by Ma'am Priya. HAdd hai matlab. Kuch bhi ho raha"
+          echo "Hello ${{github.actor}}. You pushed to ${{github.repository}} at $(date)."
