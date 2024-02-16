@@ -3,9 +3,6 @@ name: ci-fullstack-workflow
 # Ensure the workflow runs on schedule (Sunday at 0:00) and on push to the main branch
 on:
 
-  schedule:
-    - cron: '0 0 * * 0'
-
   push:
     branches:
       - master
